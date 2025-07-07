@@ -1,0 +1,45 @@
+https://smartup.online/b/anor/mxsx/mkcs/bank_operation$export
+
+select * from bankOP_operations
+select * from bankOP_refcodes
+
+https://smartup.online/b/anor/mxsx/mkcs/cash_operation$export
+select * from CashOP_operations
+select * from CashOP_refcodes
+
+todo ikkalasidan bittasi
+https://smartup.online/b/anor/mxsx/mfm/movement$export
+https://smartup.online/b/anor/mxsx/mkw/movement$export
+
+select * from movement
+select * from int_movement
+select * from int_movement_items
+
+
+https://smartup.online/b/anor/mxsx/mr/product_group$export
+https://smartup.online/b/anor/mxsx/mr/inventory$export
+
+select * from[dbo].[inventory]
+select * from[dbo].[inventory_groups]
+select * from[dbo].[inventory_sectors]
+select * from[dbo].[inventory_kinds]
+
+https://smartup.online/b/anor/mxsx/mkw/input$export
+
+select*from[dbo].[ReceiptsWH_suppliers]
+select*from[dbo].[ReceiptsWH_inputs]
+select*from[dbo].[ReceiptsWH_input_items]
+
+
+
+todo ORDER BOGLANISH
+select * from[dbo].[orders]
+where first_product_id = 2334281
+select * from[dbo].[order_products]
+select * from[dbo].[order_details]
+
+first_product_id
+product_id
+product_id
+
+shular ortasida boladi

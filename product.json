@@ -1,0 +1,992 @@
+{
+  "product_group": [
+    {
+      "product_group_id": "16711",
+      "code": "PRDGR:1",
+      "name": "Группа",
+      "product_kind": "S",
+      "state": "A",
+      "product_group_types": []
+    },
+    {
+      "product_group_id": "16712",
+      "code": "PRDGR:2",
+      "name": "Категория",
+      "product_kind": "S",
+      "state": "A",
+      "product_group_types": []
+    },
+    {
+      "product_group_id": "16713",
+      "code": "PRDGR:3",
+      "name": "Группа",
+      "product_kind": "I",
+      "state": "A",
+      "product_group_types": [
+        {
+          "product_type_id": "206675",
+          "code": null,
+          "name": "Enoc brendi urilgan Blaknot",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206677",
+          "code": null,
+          "name": "Katalog Buklet Enoc",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206678",
+          "code": null,
+          "name": "Масло Трансмиссионная",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206682",
+          "code": null,
+          "name": "Масло Гидравлическое",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206684",
+          "code": null,
+          "name": "СОЖ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206686",
+          "code": null,
+          "name": "Добавка к топливу Очиститель Инжектора",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206688",
+          "code": null,
+          "name": "Масло Моторное Индустриалное Газовое",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206690",
+          "code": null,
+          "name": "Масло МОТО для 2Т двигателей",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206692",
+          "code": null,
+          "name": "Масло Моторное PCMO Синтетика",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206694",
+          "code": null,
+          "name": "Масло Моторное PCMO Синтетическое Технология",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206696",
+          "code": null,
+          "name": "Масло Компрессорное Воздушный",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206698",
+          "code": null,
+          "name": "Масло Тракторная",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206700",
+          "code": null,
+          "name": "Тормозная Жидкость",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206701",
+          "code": null,
+          "name": "Смазка",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206703",
+          "code": null,
+          "name": "Масло Моторное Грузовое",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206705",
+          "code": null,
+          "name": "Масло Моторное Грузовое Синтек",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206707",
+          "code": null,
+          "name": "Масло Моторное Грузовое Синтетика",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206710",
+          "code": null,
+          "name": "Фильтр Воздушный",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206712",
+          "code": null,
+          "name": "Масло Моторное PCMO",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206713",
+          "code": null,
+          "name": "Антифриз Концентрат",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206715",
+          "code": null,
+          "name": "Масло Моторное PCMO Полусинтетика",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206717",
+          "code": null,
+          "name": "Фильтр Масляный",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206718",
+          "code": null,
+          "name": "Filtr maslenniy",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206720",
+          "code": null,
+          "name": "Добавка к топливу Мочевина",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206722",
+          "code": null,
+          "name": "Антифриз",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206724",
+          "code": null,
+          "name": "promo Для мастерских",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206728",
+          "code": null,
+          "name": "promo Для avto",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206730",
+          "code": null,
+          "name": "Фильтр Топливный",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206732",
+          "code": null,
+          "name": "Shelftoker ENOC",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206733",
+          "code": null,
+          "name": "Shelftoker Epsent",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206734",
+          "code": null,
+          "name": "Enoc brendi urilgan Sovg`a paketi",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206735",
+          "code": null,
+          "name": "promo Для Servis",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206736",
+          "code": null,
+          "name": "Фильтр Салонный",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206738",
+          "code": null,
+          "name": "Автозапчасть",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "224351",
+          "code": null,
+          "name": "Масло Моторное 4T Полусинтетика",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "product_group_id": "16714",
+      "code": "PRDGR:4",
+      "name": "Категория",
+      "product_kind": "I",
+      "state": "A",
+      "product_group_types": [
+        {
+          "product_type_id": "206676",
+          "code": null,
+          "name": "1X1 SHT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206679",
+          "code": null,
+          "name": "AUTOMOTIVE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206681",
+          "code": null,
+          "name": "AKPP",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206683",
+          "code": null,
+          "name": "HYDRAULIC",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206685",
+          "code": null,
+          "name": "SOJ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206687",
+          "code": null,
+          "name": "INJECTOR CLEANER",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206689",
+          "code": null,
+          "name": "INDUSTRIAL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206691",
+          "code": null,
+          "name": "MOTO",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206693",
+          "code": null,
+          "name": "CAR P SYN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206695",
+          "code": null,
+          "name": "CAR P SYNTECH",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206697",
+          "code": null,
+          "name": "COMPRESSOR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206699",
+          "code": null,
+          "name": "UTF TRACTOR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206702",
+          "code": null,
+          "name": "GREASE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206704",
+          "code": null,
+          "name": "COM D MIN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206706",
+          "code": null,
+          "name": "COM D SYNTECH",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206708",
+          "code": null,
+          "name": "COM D SYN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206714",
+          "code": null,
+          "name": "C COOLANT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206716",
+          "code": null,
+          "name": "CAR P SEMI-SYN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206719",
+          "code": null,
+          "name": "MKPP",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206721",
+          "code": null,
+          "name": "UREA",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206723",
+          "code": null,
+          "name": "COOLANT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206726",
+          "code": null,
+          "name": "CAR P MIN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206731",
+          "code": null,
+          "name": "1X200SHT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206737",
+          "code": null,
+          "name": "CAR FILTER",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206739",
+          "code": null,
+          "name": "SPARK",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "224352",
+          "code": null,
+          "name": "MOTO P SEMI-SYN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226080",
+          "code": null,
+          "name": "Osvejitel",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226082",
+          "code": null,
+          "name": "Maslo Motornoe Fully synthetic",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226083",
+          "code": null,
+          "name": "Масло Моторное Полусинтетика",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226084",
+          "code": null,
+          "name": "MOY",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226085",
+          "code": null,
+          "name": "Avtozapchast",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226086",
+          "code": null,
+          "name": "Maslo Motornoe Sintetika",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226087",
+          "code": null,
+          "name": "Maslo",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226088",
+          "code": null,
+          "name": "Avtoximiya",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226089",
+          "code": null,
+          "name": "Filtr Maslenniy",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226090",
+          "code": null,
+          "name": "Antifriz",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226091",
+          "code": null,
+          "name": "Maslo Motornoe Synthetic",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226092",
+          "code": null,
+          "name": "Akkumulyator",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226093",
+          "code": null,
+          "name": "Maslo Motornoe Synthetic-Technologie",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226094",
+          "code": null,
+          "name": "Avtokosmetika",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226095",
+          "code": null,
+          "name": "Масло Моторное Газовое",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226096",
+          "code": null,
+          "name": "Aksessuar",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226097",
+          "code": null,
+          "name": "Usluga",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226098",
+          "code": null,
+          "name": "Масло Моторное Минеральное",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226099",
+          "code": null,
+          "name": "Maslo Motornoe Polusintetika",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226100",
+          "code": null,
+          "name": "Filtr Vozdushniy",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226101",
+          "code": null,
+          "name": "Napitok",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226102",
+          "code": null,
+          "name": "Dvornik",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226103",
+          "code": null,
+          "name": "Ximiya",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226104",
+          "code": null,
+          "name": "Масло Компрессорное",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226105",
+          "code": null,
+          "name": "Germetika",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226106",
+          "code": null,
+          "name": "Antifrez",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226107",
+          "code": null,
+          "name": "Filtr Salonniy",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226108",
+          "code": null,
+          "name": "Aromatizator",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226109",
+          "code": null,
+          "name": "Jidkost dlya sistem SCR dizelnogo dvigatelya",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226110",
+          "code": null,
+          "name": "Lampochki",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226111",
+          "code": null,
+          "name": "Smazka",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226112",
+          "code": null,
+          "name": "Filtr Toplivniy",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226113",
+          "code": null,
+          "name": "Maslo Transmissionnaya",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226114",
+          "code": null,
+          "name": "Maslo Motornoe Gasoline motor oil",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226115",
+          "code": null,
+          "name": "Масло Моторное Синтетика",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226116",
+          "code": null,
+          "name": "?",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226117",
+          "code": null,
+          "name": "Nezamerzayka",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226118",
+          "code": null,
+          "name": "Podstavka",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226119",
+          "code": null,
+          "name": "Ochistitel kontaktov",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226120",
+          "code": null,
+          "name": "Avto",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226121",
+          "code": null,
+          "name": "Tormoznaya Kolodka",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226122",
+          "code": null,
+          "name": "Shetka Dlya Stekol",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226123",
+          "code": null,
+          "name": "Tormoznaya Kolodki",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226124",
+          "code": null,
+          "name": "Масло Редукторное",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226125",
+          "code": null,
+          "name": "Масло Гидравлическое",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226126",
+          "code": null,
+          "name": "Антифриз",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226127",
+          "code": null,
+          "name": "Тормозная Жидкость",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226128",
+          "code": null,
+          "name": "Очиститель Инжектора",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226129",
+          "code": null,
+          "name": "Масло Трансмиссионная",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226130",
+          "code": null,
+          "name": "Maslenniy filter",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226131",
+          "code": null,
+          "name": "OIL FILTER",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226132",
+          "code": null,
+          "name": "Energetik",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226133",
+          "code": null,
+          "name": "Maslo Motornoe Mineralnoe",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226134",
+          "code": null,
+          "name": "Napitka",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226135",
+          "code": null,
+          "name": "Очиститель Мотора",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226136",
+          "code": null,
+          "name": "С.О.Ж.",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226137",
+          "code": null,
+          "name": "Масло холодильного оборудования",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226138",
+          "code": null,
+          "name": "Масло Компрессорное Холодильное",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226139",
+          "code": null,
+          "name": "Смазка",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226140",
+          "code": null,
+          "name": "Теплоноситель Пищевой",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226141",
+          "code": null,
+          "name": "Теплоноситель",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226142",
+          "code": null,
+          "name": "FUEL FILTER",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "product_group_id": "16715",
+      "code": "PRDGR:5",
+      "name": "Торговая марка",
+      "product_kind": "I",
+      "state": "A",
+      "product_group_types": [
+        {
+          "product_type_id": "206680",
+          "code": null,
+          "name": "ENOC",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206709",
+          "code": null,
+          "name": "EPSENTOIL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206711",
+          "code": null,
+          "name": "EPSENTFLT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206725",
+          "code": null,
+          "name": "OBSHIY",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206727",
+          "code": null,
+          "name": "LUBRENT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "206729",
+          "code": null,
+          "name": "SDK",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "224353",
+          "code": null,
+          "name": "EPSENTOI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "226081",
+          "code": null,
+          "name": "TLZ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "218864",
+          "code": null,
+          "name": "EPSENT",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "218865",
+          "code": null,
+          "name": "FORTE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "218866",
+          "code": null,
+          "name": "KB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "product_type_id": "218867",
+          "code": null,
+          "name": "SCT",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    }
+  ]
+}

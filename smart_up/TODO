@@ -1,0 +1,71 @@
+import json
+import pandas as pd
+import requests
+from pandas import json_normalize
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from sqlalchemy import create_engine
+import urllib
+
+def get_cookies_from_browser(url):
+    chrome_options = Options()
+    chrome_options.add_argument("--start-maximized")
+    driver = webdriver.Chrome(options=chrome_options)
+    driver.get(url)
+    input("🌐 Login qilib bo‘lgach Enter ni bosing...")
+    cookies = driver.get_cookies()
+    driver.quit()
+    return {cookie['name']: cookie['value'] for cookie in cookies}
+
+def extract_main_data(data):
+    if isinstance(data, dict) and len(data) == 1:
+        key = next(iter(data))
+        return json_normalize(data[key], sep="_"), key
+    elif isinstance(data, list):
+        return json_normalize(data, sep="_"), "data"
+    else:
+        raise ValueError("Noto'g'ri JSON format")
+
+def fetch_and_process_and_upload(data_url):
+    try:
+        cookies = get_cookies_from_browser("https://smartup.online")
+        print("⬇️ Ma'lumot yuklanmoqda...")
+        response = requests.get(data_url, cookies=cookies)
+        response.raise_for_status()
+        data = response.json()
+
+        df, table_name = extract_main_data(data)
+        print(f"✅ JSONdan DataFrame yaratildi: {table_name} ({len(df)} satr)")
+
+        # SQL Serverga ulanish
+        print("🔌 SQL Serverga ulanmoqda...")
+        params = urllib.parse.quote_plus(
+            "DRIVER={ODBC Driver 17 for SQL Server};"
+            "SERVER=localhost;"
+            "DATABASE=Test;"
+            "TrustServerCertificate=yes;"
+            "Trusted_Connection=yes;"
+        )
+        engine = create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
+
+        # Dublikatsiyadan tozalash
+        try:
+            old_df = pd.read_sql(f"SELECT * FROM {table_name}", con=engine)
+            df = pd.concat([old_df, df]).drop_duplicates()
+        except:
+            print("🆕 Jadval topilmadi. Yangi yozuvlar yoziladi.")
+
+        df.to_sql(table_name, con=engine, index=False, if_exists="replace")
+        print(f"✅ Bazaga yozildi: {table_name} | {len(df)} satr")
+
+    except Exception as e:
+        print(f"❌ Xatolik: {e}")
+        try:
+            with open("smartup_export_error.txt", "wb") as f:
+                f.write(response.content)
+        except:
+            pass
+
+if __name__ == "__main__":
+    DATA_URL = "https://smartup.online/b/trade/txs/tdeal/order$export"
+    fetch_and_process_and_upload(DATA_URL)

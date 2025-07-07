@@ -1,0 +1,53 @@
+{
+  "inventory": [
+    {
+      "product_id": "2334419",
+      "code": "EP-OF-690",
+      "name": "EPSENT Oil-Filter DF690 SILVER EQUINOX 2",
+      "short_name": "EPSENT Oil-Filter DF690 SILVER EQUINOX 2",
+      "weight_netto": null,
+      "weight_brutto": "0.24",
+      "litr": null,
+      "box_type_code": null,
+      "box_quant": null,
+      "producer_code": null,
+      "measure_code": null,
+      "state": "A",
+      "order_no": null,
+      "article_code": "OPTOM20001",
+      "barcodes": "2226",
+      "gtin": null,
+      "ikpu": null,
+      "tnved": null,
+      "marking_group_code": null,
+      "groups": [
+        {
+          "group_id": "16713",
+          "group_code": "PRDGR:3",
+          "type_id": "206717",
+          "type_code": null
+        },
+        {
+          "group_id": "16714",
+          "group_code": "PRDGR:4",
+          "type_id": "206679",
+          "type_code": null
+        },
+        {
+          "group_id": "16715",
+          "group_code": "PRDGR:5",
+          "type_id": "206711",
+          "type_code": null
+        }
+      ],
+      "inventory_kinds": [
+        {
+          "inventory_kind": "G"
+        }
+      ],
+      "sector_codes": [
+        {
+          "sector_code": null
+        }
+      ]
+    }
