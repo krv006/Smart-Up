@@ -1,0 +1,61 @@
+{
+  "return": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "deal_id": "126866949",
+      "subfilial_code": null,
+      "deal_time": "01.01.2025 05:24:26",
+      "order_deal_id": null,
+      "delivery_date": "01.01.2025",
+      "delivery_number": null,
+      "booked_date": "01.01.2025",
+      "room_id": "121380",
+      "room_code": null,
+      "robot_code": null,
+      "sales_manager_code": null,
+      "sales_manager_name": "Zikrulloh",
+      "expeditor_code": null,
+      "person_code": "120.01.62.012",
+      "person_id": "10156503",
+      "person_name": "Begzod Aka Baytqorgon",
+      "person_tin": null,
+      "currency_code": "840",
+      "owner_person_code": "120.01.62.012",
+      "manager_code": null,
+      "van_code": null,
+      "contract_code": null,
+      "invoice_number": null,
+      "batch_number": "20250101000000201029",
+      "payment_type_code": null,
+      "total_amount": "-1.85",
+      "note": null,
+      "status": "A",
+      "return_reason_id": "10661",
+      "return_reason_code": null,
+      "return_products": [
+        {
+          "external_id": null,
+          "product_unit_id": "518457698",
+          "product_code": "EP-AF-601",
+          "product_name": "EPSENT Air-Filter AF601 Spark 1.25",
+          "serial_number": null,
+          "expiry_date": null,
+          "return_quant": "1",
+          "product_price": "1.85",
+          "margin_amount": "0",
+          "margin_value": "0",
+          "margin_kind": "P",
+          "card_code": null,
+          "vat_percent": "0",
+          "vat_amount": "0",
+          "sold_amount": "-1.85",
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "price_type_code": "PRCT:3",
+          "warehouse_code": "65462"
+        }
+      ]
+    }
+  ]
+}

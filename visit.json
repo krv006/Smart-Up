@@ -1,0 +1,35 @@
+{
+  "visit": [
+    {
+      "visit_headers": [
+        {
+          "visit_id": "92702390",
+          "filial_code": null,
+          "visit_date": "05.03.2025",
+          "visit_start_time": "05.03.2025 09:27:34",
+          "visit_end_time": "05.03.2025 09:31:31",
+          "person_name": "Abbos Aka Milliy Gvardiya",
+          "person_code": "120.01.10.020",
+          "person_id": "10155968",
+          "room_id": "119153",
+          "room_code": null,
+          "sales_manager_id": "10154402",
+          "sales_manager_name": "Bozorov Saidjon",
+          "sales_manager_code": null,
+          "visit_start_location": "41.26684711666667,69.16895001666667",
+          "visit_end_location": "41.2673676,69.1692785",
+          "is_planned": "Да"
+        }
+      ],
+      "stocks": [],
+      "merchandisings": [],
+      "quizzes": [
+        {
+          "quiz_sets": []
+        }
+      ],
+      "comments": [],
+      "note": null
+    }
+  ]
+}
