@@ -1,0 +1,1164 @@
+{
+  "room": [
+    {
+      "room_code": null,
+      "room_id": "115685",
+      "filial_code": null,
+      "room_name": "Головной офис",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119143",
+      "filial_code": null,
+      "room_name": "UZB-1-ASQ",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119144",
+      "filial_code": null,
+      "room_name": "UZB-1-AXM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119145",
+      "filial_code": null,
+      "room_name": "UZB-1-BEG",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119146",
+      "filial_code": null,
+      "room_name": "UZB-1-DOS",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119147",
+      "filial_code": null,
+      "room_name": "UZB-1-QOS",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119148",
+      "filial_code": null,
+      "room_name": "UZB-1-DIL",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119149",
+      "filial_code": null,
+      "room_name": "UZB-1-GAY",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119150",
+      "filial_code": null,
+      "room_name": "UZB-1-FUR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119151",
+      "filial_code": null,
+      "room_name": "UZB-1-NIG",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119152",
+      "filial_code": null,
+      "room_name": "UZB-1-GOLB",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119153",
+      "filial_code": null,
+      "room_name": "UZB-1-SAID",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119780",
+      "filial_code": null,
+      "room_name": "UZB-1-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121380",
+      "filial_code": null,
+      "room_name": "VR 01",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130520",
+      "filial_code": null,
+      "room_name": "TG BOT-01",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131822",
+      "filial_code": null,
+      "room_name": "UZB-1-UMI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "133241",
+      "filial_code": null,
+      "room_name": "UZB-1-NUR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121015",
+      "filial_code": null,
+      "room_name": "UZB-2-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "124540",
+      "filial_code": null,
+      "room_name": "VR 02",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125564",
+      "filial_code": null,
+      "room_name": "UZB-2-DONI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125565",
+      "filial_code": null,
+      "room_name": "UZB-2-SUX",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125566",
+      "filial_code": null,
+      "room_name": "UZB-2-RAH",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130622",
+      "filial_code": null,
+      "room_name": "TG BOT-02",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121016",
+      "filial_code": null,
+      "room_name": "UZB-3-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "124741",
+      "filial_code": null,
+      "room_name": "VR 03",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125480",
+      "filial_code": null,
+      "room_name": "UZB-3-BOB",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125481",
+      "filial_code": null,
+      "room_name": "UZB-3-ISM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125482",
+      "filial_code": null,
+      "room_name": "UZB-3-MUH",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125483",
+      "filial_code": null,
+      "room_name": "UZB-3-MAX",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125484",
+      "filial_code": null,
+      "room_name": "UZB-3-XUS",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130640",
+      "filial_code": null,
+      "room_name": "TG BOT-03",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121017",
+      "filial_code": null,
+      "room_name": "UZB-4-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123640",
+      "filial_code": null,
+      "room_name": "VR 04",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125567",
+      "filial_code": null,
+      "room_name": "UZB-4-QODI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125568",
+      "filial_code": null,
+      "room_name": "UZB-4-ISLM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125569",
+      "filial_code": null,
+      "room_name": "UZB-4-MUR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125570",
+      "filial_code": null,
+      "room_name": "UZB-4-BOB",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130641",
+      "filial_code": null,
+      "room_name": "TG BOT-04",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119130",
+      "filial_code": null,
+      "room_name": "UZB-5-AZIZ",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119131",
+      "filial_code": null,
+      "room_name": "UZB-5-MOXI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119132",
+      "filial_code": null,
+      "room_name": "UZB-5-MXR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119133",
+      "filial_code": null,
+      "room_name": "UZB-5-SURA",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119134",
+      "filial_code": null,
+      "room_name": "UZB-5-YUL",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119135",
+      "filial_code": null,
+      "room_name": "UZB-5-SHER",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119136",
+      "filial_code": null,
+      "room_name": "UZB-5-YULI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119137",
+      "filial_code": null,
+      "room_name": "UZB-5-NOD",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119302",
+      "filial_code": null,
+      "room_name": "UZB-5-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "120080",
+      "filial_code": null,
+      "room_name": "UZB-5-TOX",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121381",
+      "filial_code": null,
+      "room_name": "VR 05",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130642",
+      "filial_code": null,
+      "room_name": "TG BOT-05",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121019",
+      "filial_code": null,
+      "room_name": "UZB-6-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123200",
+      "filial_code": null,
+      "room_name": "VR 06",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125560",
+      "filial_code": null,
+      "room_name": "UZB-6-NURI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125561",
+      "filial_code": null,
+      "room_name": "UZB-6-SARD",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125562",
+      "filial_code": null,
+      "room_name": "UZB-6-ABH",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125563",
+      "filial_code": null,
+      "room_name": "UZB-6-B2B",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "127762",
+      "filial_code": null,
+      "room_name": "UZB-6-BAH",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130643",
+      "filial_code": null,
+      "room_name": "TG BOT-06",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119138",
+      "filial_code": null,
+      "room_name": "UZB-7-FAZL",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119139",
+      "filial_code": null,
+      "room_name": "UZB-7-SARD",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119140",
+      "filial_code": null,
+      "room_name": "UZB-7-JAMI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119141",
+      "filial_code": null,
+      "room_name": "UZB-7-JAM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119142",
+      "filial_code": null,
+      "room_name": "UZB-7-NUR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "119301",
+      "filial_code": null,
+      "room_name": "UZB-7-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121382",
+      "filial_code": null,
+      "room_name": "VR 07",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "130660",
+      "filial_code": null,
+      "room_name": "TG BOT-07",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121020",
+      "filial_code": null,
+      "room_name": "UZB-8-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "124840",
+      "filial_code": null,
+      "room_name": "VR 08",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125644",
+      "filial_code": null,
+      "room_name": "UZB-8-GOLI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125645",
+      "filial_code": null,
+      "room_name": "UZB-8-SHE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125646",
+      "filial_code": null,
+      "room_name": "UZB-8-KAM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131183",
+      "filial_code": null,
+      "room_name": "TG BOT-08",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121022",
+      "filial_code": null,
+      "room_name": "UZB-9-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "124740",
+      "filial_code": null,
+      "room_name": "VR 09",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125621",
+      "filial_code": null,
+      "room_name": "UZB-9-AXR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125622",
+      "filial_code": null,
+      "room_name": "UZB-9-SAR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125623",
+      "filial_code": null,
+      "room_name": "UZB-9-GUL",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131181",
+      "filial_code": null,
+      "room_name": "TG BOT-09",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121023",
+      "filial_code": null,
+      "room_name": "UZB-10-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123321",
+      "filial_code": null,
+      "room_name": "VR 10",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125606",
+      "filial_code": null,
+      "room_name": "UZB-10-ABD",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125607",
+      "filial_code": null,
+      "room_name": "UZB-10-ORF",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125609",
+      "filial_code": null,
+      "room_name": "UZB-10-ISL",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125610",
+      "filial_code": null,
+      "room_name": "UZB-10-AZI",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125611",
+      "filial_code": null,
+      "room_name": "UZB-10-JAS",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125613",
+      "filial_code": null,
+      "room_name": "UZB-10-AKB",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125614",
+      "filial_code": null,
+      "room_name": "UZB-10-JAH",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125615",
+      "filial_code": null,
+      "room_name": "UZB-10-BEX",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131180",
+      "filial_code": null,
+      "room_name": "TG BOT-10",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121024",
+      "filial_code": null,
+      "room_name": "UZB-11-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123641",
+      "filial_code": null,
+      "room_name": "VR 11",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125580",
+      "filial_code": null,
+      "room_name": "UZB-11-SAIB",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125581",
+      "filial_code": null,
+      "room_name": "UZB-11-REF",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125582",
+      "filial_code": null,
+      "room_name": "UZB-11-RUS",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125583",
+      "filial_code": null,
+      "room_name": "UZB-11-SHE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131083",
+      "filial_code": null,
+      "room_name": "TG BOT-11",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121041",
+      "filial_code": null,
+      "room_name": "UZB-13-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123460",
+      "filial_code": null,
+      "room_name": "VR 13",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125485",
+      "filial_code": null,
+      "room_name": "UZB-13-MDN",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125486",
+      "filial_code": null,
+      "room_name": "UZB-13-SHE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125487",
+      "filial_code": null,
+      "room_name": "UZB-13-SAR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131081",
+      "filial_code": null,
+      "room_name": "TG BOT-13",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "133240",
+      "filial_code": null,
+      "room_name": "UZB-13-BEX",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121040",
+      "filial_code": null,
+      "room_name": "UZB-12-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123701",
+      "filial_code": null,
+      "room_name": "VR 12",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125648",
+      "filial_code": null,
+      "room_name": "UZB-12-ZOK",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125649",
+      "filial_code": null,
+      "room_name": "UZB-12-MUR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125650",
+      "filial_code": null,
+      "room_name": "UZB-12-JAM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125651",
+      "filial_code": null,
+      "room_name": "UZB-12-MUZ",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131082",
+      "filial_code": null,
+      "room_name": "TG BOT-12",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "121042",
+      "filial_code": null,
+      "room_name": "UZB-14-OPE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "123652",
+      "filial_code": null,
+      "room_name": "VR 14",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "P",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125640",
+      "filial_code": null,
+      "room_name": "UZB-14-MIR",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125641",
+      "filial_code": null,
+      "room_name": "UZB-14-SHE",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "125642",
+      "filial_code": null,
+      "room_name": "UZB-14-AZM",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    },
+    {
+      "room_code": null,
+      "room_id": "131084",
+      "filial_code": null,
+      "room_name": "TG BOT-14",
+      "room_kind": "D",
+      "room_type_code": null,
+      "state": "A",
+      "order_no": null
+    }
+  ]
+}

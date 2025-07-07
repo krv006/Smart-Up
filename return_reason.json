@@ -1,0 +1,18 @@
+{
+  "return_reason": [
+    {
+      "return_reason_id": "10222",
+      "code": null,
+      "name": "Обмен",
+      "state": "A",
+      "order_no": "1"
+    },
+    {
+      "return_reason_id": "10661",
+      "code": null,
+      "name": "import",
+      "state": "A",
+      "order_no": null
+    }
+  ]
+}

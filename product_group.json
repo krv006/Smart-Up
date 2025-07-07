@@ -1,0 +1,12 @@
+{
+  "product_group": [
+    {
+      "product_group_id": "16711",
+      "code": "PRDGR:1",
+      "name": "Группа",
+      "product_kind": "S",
+      "state": "A",
+      "product_group_types": []
+    }
+  ]
+}

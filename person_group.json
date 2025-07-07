@@ -1,0 +1,1237 @@
+{
+  "person_group": [
+    {
+      "person_group_id": "41835",
+      "code": "PRSGR:4",
+      "name": "Группа",
+      "person_kind": "N",
+      "state": "A",
+      "person_group_types": []
+    },
+    {
+      "person_group_id": "41836",
+      "code": "PRSGR:5",
+      "name": "Категория",
+      "person_kind": "N",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "320888",
+          "code": "PRSTP:1",
+          "name": "A",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320889",
+          "code": "PRSTP:11",
+          "name": "B",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320890",
+          "code": "PRSTP:12",
+          "name": "C",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "person_group_id": "41837",
+      "code": "PRSGR:6",
+      "name": "Тип",
+      "person_kind": "N",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "320891",
+          "code": "PRSTP:13",
+          "name": "Клиент",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320892",
+          "code": "PRSTP:14",
+          "name": "Контактное лицо",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320893",
+          "code": "PRSTP:15",
+          "name": "Сотрудник",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "person_group_id": "41838",
+      "code": "PRSGR:1",
+      "name": "Группа",
+      "person_kind": "L",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "352962",
+          "code": null,
+          "name": "UZB-5-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352964",
+          "code": null,
+          "name": "UZB-5-YULI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352965",
+          "code": null,
+          "name": "UZB-5-MOXI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352966",
+          "code": null,
+          "name": "UZB-5-SURA",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352967",
+          "code": null,
+          "name": "UZB-5-AZIZ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352968",
+          "code": null,
+          "name": "UZB-5-YUL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352969",
+          "code": null,
+          "name": "UZB-5-NOD",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352970",
+          "code": null,
+          "name": "UZB-5-MXR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352971",
+          "code": null,
+          "name": "UZB-5-SHER",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "353856",
+          "code": null,
+          "name": "UZB-5-TOX",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "356380",
+          "code": null,
+          "name": "ODIL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "599610",
+          "code": null,
+          "name": "UZB-3-XUS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "4720280",
+          "code": null,
+          "name": "UZB-6-BAH",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "6558377",
+          "code": null,
+          "name": "UZB-1-UMI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361297",
+          "code": null,
+          "name": "UZB-6-NURI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "353777",
+          "code": null,
+          "name": "UZB-7-FAR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "353778",
+          "code": null,
+          "name": "0",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361296",
+          "code": null,
+          "name": "UZB-6-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361298",
+          "code": null,
+          "name": "UZB-6-ABH",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361299",
+          "code": null,
+          "name": "UZB-6-SARD",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361670",
+          "code": null,
+          "name": "UZB-10-BEX",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "600630",
+          "code": null,
+          "name": "UZB-4-BOB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "998246",
+          "code": null,
+          "name": "UZB-11-SAIB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "5031578",
+          "code": null,
+          "name": "UZB-7-NUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "5506447",
+          "code": null,
+          "name": "UZB-13-BEX",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361581",
+          "code": null,
+          "name": "UZB-2-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352974",
+          "code": null,
+          "name": "UZB-7-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352975",
+          "code": null,
+          "name": "UZB-7-FAZL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352976",
+          "code": null,
+          "name": "UZB-7-JAMI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352977",
+          "code": null,
+          "name": "UZB-7-SARD",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "356383",
+          "code": null,
+          "name": "Offis",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361582",
+          "code": null,
+          "name": "UZB-2-BAHR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361583",
+          "code": null,
+          "name": "UZB-2-DONI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361584",
+          "code": null,
+          "name": "UZB-2-SUX",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361585",
+          "code": null,
+          "name": "UZB-3-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361586",
+          "code": null,
+          "name": "UZB-3-BOB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361587",
+          "code": null,
+          "name": "UZB-3-FAR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361588",
+          "code": null,
+          "name": "UZB-3-ISM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361589",
+          "code": null,
+          "name": "UZB-3-MUH",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361590",
+          "code": null,
+          "name": "UZB-4-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361591",
+          "code": null,
+          "name": "UZB-4-QODI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361592",
+          "code": null,
+          "name": "UZB-4-MUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361593",
+          "code": null,
+          "name": "UZB-4-ISLM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361594",
+          "code": null,
+          "name": "UZB-8-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361595",
+          "code": null,
+          "name": "UZB-8-GOLI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361596",
+          "code": null,
+          "name": "UZB-8-OTAB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361597",
+          "code": null,
+          "name": "UZB-8-KAM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361600",
+          "code": null,
+          "name": "UZB-9-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361601",
+          "code": null,
+          "name": "UZB-9-AXR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361602",
+          "code": null,
+          "name": "UZB-9-SAL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361603",
+          "code": null,
+          "name": "UZB-10-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361604",
+          "code": null,
+          "name": "UZB-10-JAS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361605",
+          "code": null,
+          "name": "UZB-10-ORF",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361606",
+          "code": null,
+          "name": "UZB-10-ISL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361607",
+          "code": null,
+          "name": "UZB-10-AZI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361608",
+          "code": null,
+          "name": "UZB-10-ABD",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361609",
+          "code": null,
+          "name": "UZB-10-JAF",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361610",
+          "code": null,
+          "name": "UZB-10-AKB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361611",
+          "code": null,
+          "name": "UZB-10-JAH",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361612",
+          "code": null,
+          "name": "UZB-10-ANV",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361613",
+          "code": null,
+          "name": "UZB-11-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361614",
+          "code": null,
+          "name": "UZB-11-REF",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361615",
+          "code": null,
+          "name": "UZB-11-AZI",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361616",
+          "code": null,
+          "name": "UZB-11-SHE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361617",
+          "code": null,
+          "name": "UZB-11-RUS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361618",
+          "code": null,
+          "name": "UZB-12-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361619",
+          "code": null,
+          "name": "UZB-12-ZOK",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361621",
+          "code": null,
+          "name": "UZB-12-MUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361622",
+          "code": null,
+          "name": "UZB-12-JAM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361630",
+          "code": null,
+          "name": "UZB-12-MUZ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361634",
+          "code": null,
+          "name": "UZB-12-DAV",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361635",
+          "code": null,
+          "name": "UZB-13-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361636",
+          "code": null,
+          "name": "UZB-13-MDN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361637",
+          "code": null,
+          "name": "UZB-13-SAR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361638",
+          "code": null,
+          "name": "UZB-13-SHE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361639",
+          "code": null,
+          "name": "UZB-13-SOB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361640",
+          "code": null,
+          "name": "UZB-14-OPE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361641",
+          "code": null,
+          "name": "UZB-14-MIR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361642",
+          "code": null,
+          "name": "UZB-14-SHE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361643",
+          "code": null,
+          "name": "UZB-14-AZM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361646",
+          "code": null,
+          "name": "BOBUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361647",
+          "code": null,
+          "name": "zz",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361648",
+          "code": null,
+          "name": "OFFICE",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "12843317",
+          "code": null,
+          "name": "UZB-1-NUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352857",
+          "code": null,
+          "name": "UZB-1-GOLB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352860",
+          "code": null,
+          "name": "UZB-1-DIL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352862",
+          "code": null,
+          "name": "UZB-1-OBO",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352863",
+          "code": null,
+          "name": "UZB-1-BEG",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352864",
+          "code": null,
+          "name": "UZB-1-SARD",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352866",
+          "code": null,
+          "name": "UZB-1-GAY",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352870",
+          "code": null,
+          "name": "UZB-1-NIG",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352871",
+          "code": null,
+          "name": "UZB-1-KOM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352875",
+          "code": null,
+          "name": "UZB-1-ELY",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352879",
+          "code": null,
+          "name": "UZB-1-FAYZ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352881",
+          "code": null,
+          "name": "UZB-1-sar",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352882",
+          "code": null,
+          "name": "UZB-1-JAS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352883",
+          "code": null,
+          "name": "UZB-1-DOS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352885",
+          "code": null,
+          "name": "UZB-1-ASQ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352886",
+          "code": null,
+          "name": "UZB-1-AXM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "987893",
+          "code": null,
+          "name": "UZB-1-QOS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "987894",
+          "code": null,
+          "name": "UZB-1-FUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "11471620",
+          "code": null,
+          "name": "UZB-7-ISM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "598536",
+          "code": null,
+          "name": "UZB-9-GUL",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "598537",
+          "code": null,
+          "name": "UZB-9-SAR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "11471621",
+          "code": null,
+          "name": "UZB",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "600818",
+          "code": null,
+          "name": "UZB-6-B2B",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "600948",
+          "code": null,
+          "name": "UZB-8-XUR",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "353836",
+          "code": null,
+          "name": "UZB-1-SAID",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "353837",
+          "code": null,
+          "name": "UZB-B2B-1",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "598038",
+          "code": null,
+          "name": "UZB-2-Tillo",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "person_group_id": "41839",
+      "code": "PRSGR:2",
+      "name": "Категория",
+      "person_kind": "L",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "320894",
+          "code": "PRSTP:16",
+          "name": "A",
+          "state": "P",
+          "order_no": "1"
+        },
+        {
+          "person_type_id": "320895",
+          "code": "PRSTP:2",
+          "name": "B",
+          "state": "P",
+          "order_no": "2"
+        },
+        {
+          "person_type_id": "320896",
+          "code": "PRSTP:3",
+          "name": "C",
+          "state": "P",
+          "order_no": "3"
+        },
+        {
+          "person_type_id": "361195",
+          "code": null,
+          "name": "Key Account",
+          "state": "A",
+          "order_no": "6"
+        },
+        {
+          "person_type_id": "361632",
+          "code": null,
+          "name": "B2S",
+          "state": "P",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352858",
+          "code": null,
+          "name": "B2C",
+          "state": "A",
+          "order_no": "5"
+        },
+        {
+          "person_type_id": "352867",
+          "code": null,
+          "name": "ZZ",
+          "state": "P",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352874",
+          "code": null,
+          "name": "B2B",
+          "state": "A",
+          "order_no": "4"
+        }
+      ]
+    },
+    {
+      "person_group_id": "41840",
+      "code": "PRSGR:3",
+      "name": "Тип",
+      "person_kind": "L",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "320897",
+          "code": "PRSTP:4",
+          "name": "Клиент",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320898",
+          "code": "PRSTP:5",
+          "name": "Конкурент",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320899",
+          "code": "PRSTP:6",
+          "name": "Наша компания",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320900",
+          "code": "PRSTP:7",
+          "name": "Партнер",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320901",
+          "code": "PRSTP:8",
+          "name": "Подрядчик",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320902",
+          "code": "PRSTP:9",
+          "name": "Поставщик",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "320903",
+          "code": "PRSTP:10",
+          "name": "Торговая сеть",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352963",
+          "code": null,
+          "name": "DILLER",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352972",
+          "code": null,
+          "name": "пзм",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352973",
+          "code": null,
+          "name": "LOGISTIC",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361300",
+          "code": null,
+          "name": "zapchas ms",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361598",
+          "code": null,
+          "name": "zamen masl",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361599",
+          "code": null,
+          "name": "магазин",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361620",
+          "code": null,
+          "name": "Furachi",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361623",
+          "code": null,
+          "name": "Avto extiy",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361624",
+          "code": null,
+          "name": "Man avto s",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361625",
+          "code": null,
+          "name": "Biznesmen.",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361626",
+          "code": null,
+          "name": "Urgench.sh",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361627",
+          "code": null,
+          "name": "Xorazm Gaz",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361628",
+          "code": null,
+          "name": "Matarist",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361629",
+          "code": null,
+          "name": "Dukon",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361631",
+          "code": null,
+          "name": "CALLCENTER",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361633",
+          "code": null,
+          "name": "mataris",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361644",
+          "code": null,
+          "name": "Construct",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "361645",
+          "code": null,
+          "name": "razvi klet",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352859",
+          "code": null,
+          "name": "ZAM MASLA",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352861",
+          "code": null,
+          "name": "MAGAZIN",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352865",
+          "code": null,
+          "name": "USTA",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352868",
+          "code": null,
+          "name": "ZZ",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352869",
+          "code": null,
+          "name": "OSDO",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352872",
+          "code": null,
+          "name": "ROZNICA",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352873",
+          "code": null,
+          "name": "OPTOVIK",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352876",
+          "code": null,
+          "name": "PZM",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352877",
+          "code": null,
+          "name": "4",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352878",
+          "code": null,
+          "name": "FLEETS",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352880",
+          "code": null,
+          "name": "GEN MANUFA",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352884",
+          "code": null,
+          "name": "252",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352887",
+          "code": null,
+          "name": "b2c",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352888",
+          "code": null,
+          "name": "avto servi",
+          "state": "A",
+          "order_no": null
+        },
+        {
+          "person_type_id": "352889",
+          "code": null,
+          "name": "AVTOSALON",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "person_group_id": "42369",
+      "code": null,
+      "name": "Категория по скидки",
+      "person_kind": "L",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "15639265",
+          "code": null,
+          "name": "Maxsus mijoz",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    },
+    {
+      "person_group_id": "46129",
+      "code": null,
+      "name": "Характеристика",
+      "person_kind": "L",
+      "state": "A",
+      "person_group_types": [
+        {
+          "person_type_id": "15639414",
+          "code": null,
+          "name": "Qora royxat",
+          "state": "A",
+          "order_no": null
+        }
+      ]
+    }
+  ]
+}

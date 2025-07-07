@@ -1,0 +1,23 @@
+{
+  "contract": [
+    {
+      "filial_code": null,
+      "contract_id": "2354528",
+      "code": "yengi",
+      "contract_date": "15.04.2025",
+      "contract_number": "1",
+      "name": "Договор № 1 от 15.04.2025",
+      "person_code": null,
+      "currency_code": "840",
+      "expiry_date": null,
+      "note": null,
+      "initial_amount": null,
+      "initial_expiry_date": null,
+      "state": "A",
+      "is_main": "N",
+      "consignment_day_limit": null,
+      "allow_auto_consignment": null,
+      "sub_contracts": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "natural_person": [
+    {
+      "person_id": "10154373",
+      "first_name": "RAXIMQULOV UMEDJON",
+      "last_name": null,
+      "middle_name": null,
+      "gender": "M",
+      "birthday": null,
+      "latlng": null,
+      "code": "UZB-5-UMD",
+      "main_phone": null,
+      "web": null,
+      "address": null,
+      "post_address": null,
+      "region_code": null,
+      "region_name": null,
+      "legal_person_code": null,
+      "telegram": null,
+      "email": null,
+      "is_budgetarian": "N",
+      "is_client": "N",
+      "is_supplier": "N",
+      "groups": [],
+      "rooms": [],
+      "state": "A"
+    },
+    {
+      "person_id": "10316080",
+      "first_name": "Usmon",
+      "last_name": "Usmon tuning",
+      "middle_name": null,
+      "gender": "M",
+      "birthday": null,
+      "latlng": null,
+      "code": "120.01.20.0003",
+      "main_phone": "998322382",
+      "web": null,
+      "address": "ibn sino danty dokon",
+      "post_address": null,
+      "region_code": "REG:1",
+      "region_name": "Узбекистан",
+      "legal_person_code": null,
+      "telegram": null,
+      "email": null,
+      "is_budgetarian": "N",
+      "is_client": "N",
+      "is_supplier": "N",
+      "groups": [
+        {
+          "group_code": "PRSGR:5",
+          "type_code": "PRSTP:1"
+        },
+        {
+          "group_code": "PRSGR:6",
+          "type_code": "PRSTP:13"
+        }
+      ],
+      "rooms": [],
+      "state": "A"
+    }
+  ]
+}

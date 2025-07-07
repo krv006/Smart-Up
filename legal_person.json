@@ -1,0 +1,52 @@
+{
+  "legal_person": [
+    {
+      "person_id": "10155684",
+      "name": "Salohiddin Zamena Maslo (2)",
+      "short_name": "Salohiddin Zamena Maslo (2)",
+      "code": "120.01.03.011",
+      "latlng": null,
+      "tin": null,
+      "cea": null,
+      "main_phone": "998935033530",
+      "web": null,
+      "address": "TTZ MIRZO ULUG'BEK doka xleb Isaboy Serviz",
+      "post_address": null,
+      "address_guide": "Salohiddin zamena masla",
+      "region_id": "1155661",
+      "region_code": "REG:16",
+      "primary_person_code": null,
+      "parent_person_code": null,
+      "allow_owner": "N",
+      "vat_code": null,
+      "barcode": null,
+      "zip_code": null,
+      "email": null,
+      "is_budgetarian": "N",
+      "is_client": "N",
+      "is_supplier": "N",
+      "state": "A",
+      "groups": [
+        {
+          "group_id": "41838",
+          "group_code": "PRSGR:1",
+          "type_id": "6558377",
+          "type_code": null
+        },
+        {
+          "group_id": "41839",
+          "group_code": "PRSGR:2",
+          "type_id": "352858",
+          "type_code": null
+        },
+        {
+          "group_id": "41840",
+          "group_code": "PRSGR:3",
+          "type_id": "352859",
+          "type_code": null
+        }
+      ],
+      "bank_accounts": []
+    }
+  ]
+}

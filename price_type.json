@@ -1,0 +1,76 @@
+{
+  "price_type": [
+    {
+      "code": "PRCT:1",
+      "name": "Промо",
+      "short_name": "Промо",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": null
+    },
+    {
+      "code": "PRCT:2",
+      "name": "Акция",
+      "short_name": "Акция",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": null
+    },
+    {
+      "code": "PRCT:3",
+      "name": "Возврат",
+      "short_name": "Возврат",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": null
+    },
+    {
+      "code": "PRCT:4",
+      "name": "Передача забаланс",
+      "short_name": "Передача забаланс",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": null
+    },
+    {
+      "code": "PRCT:5",
+      "name": "Обмен",
+      "short_name": "Обмен",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": null
+    },
+    {
+      "code": null,
+      "name": "1",
+      "short_name": "1",
+      "with_card": "N",
+      "state": "P",
+      "price_type_kind": "S",
+      "currency_code": "860"
+    },
+    {
+      "code": null,
+      "name": "Цена дилеров",
+      "short_name": "Цена дилеров",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": "840"
+    },
+    {
+      "code": null,
+      "name": "Розничная цена",
+      "short_name": "Розничная цена",
+      "with_card": "N",
+      "state": "A",
+      "price_type_kind": "S",
+      "currency_code": "840"
+    }
+  ]
+}
