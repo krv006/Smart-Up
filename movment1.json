@@ -1,0 +1,138 @@
+{
+  "movement": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "movement_id": "1027543",
+      "status": "C",
+      "movement_number": "0000000001",
+      "from_movement_date": "04.03.2025 12:26:30",
+      "to_movement_date": "04.03.2025 12:26:30",
+      "request_id": null,
+      "from_warehouse_code": "65461",
+      "to_warehouse_code": "68345",
+      "reason_code": null,
+      "note": null,
+      "barcode": "1111027543",
+      "movement_items": [
+        {
+          "external_id": null,
+          "movement_item_id": "23420631",
+          "request_item_id": null,
+          "product_code": "EN-171.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "403.7",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420632",
+          "request_item_id": null,
+          "product_code": "EP-OIL-010.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "155.5",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420633",
+          "request_item_id": null,
+          "product_code": "EP-OIL-020.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "143",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420634",
+          "request_item_id": null,
+          "product_code": "EP-OIL-050.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "203.9",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420635",
+          "request_item_id": null,
+          "product_code": "EP-OIL-050.020",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "0.81",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420636",
+          "request_item_id": null,
+          "product_code": "EP-OIL-080.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "209",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420637",
+          "request_item_id": null,
+          "product_code": "EP-OIL-080.020",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "3",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420638",
+          "request_item_id": null,
+          "product_code": "EP-OIL-090.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "816.3",
+          "batch_number": null
+        },
+        {
+          "external_id": null,
+          "movement_item_id": "23420639",
+          "request_item_id": null,
+          "product_code": "EP-OIL-040.209",
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "203.9",
+          "batch_number": null
+        }
+      ]
+    }
+  ]
+}

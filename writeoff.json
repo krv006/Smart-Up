@@ -1,0 +1,32 @@
+{
+  "writeoff": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "writeoff_id": "204196",
+      "status": "C",
+      "writeoff_number": "0000000001",
+      "writeoff_date": "31.03.2025",
+      "currency_code": "840",
+      "warehouse_code": "65461",
+      "reason_code": null,
+      "note": null,
+      "barcode": "1160204196",
+      "c_amount": "132",
+      "c_amount_base": "132",
+      "writeoff_items": [
+        {
+          "external_id": null,
+          "writeoff_item_id": "4300883",
+          "inventory_kind": "G",
+          "product_code": "EN-040.000300",
+          "serial_number": null,
+          "card_code": null,
+          "expiry_date": null,
+          "quantity": "11",
+          "batch_number": null
+        }
+      ]
+    }
+  ]
+}
