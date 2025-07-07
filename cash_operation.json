@@ -1,0 +1,33 @@
+{
+  "cash_operation": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "operation_id": "40345423",
+      "operation_date": "08.03.2025",
+      "operation_number": "0000000005",
+      "subfilial_code": null,
+      "posted": "Y",
+      "cashbox_code": null,
+      "cashflow_reason_code": null,
+      "cashflow_kind": "I",
+      "corr_coa_code": "6310",
+      "ref_codes": [
+        {
+          "ref_type": "1010",
+          "ref_id": "10156180"
+        },
+        {
+          "ref_type": "1012",
+          "ref_id": "11369"
+        }
+      ],
+      "corr_person_code": "120.01.50.008",
+      "currency_code": "840",
+      "amount": "16.54",
+      "responsible_person_code": null,
+      "collector_code": null,
+      "note": "214.000 14% Skitka"
+    }
+  ]
+}

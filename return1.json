@@ -1,0 +1,64 @@
+{
+  "return": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "return_id": "98708",
+      "return_time": "05.04.2025",
+      "return_number": "0000000001",
+      "currency_code": "840",
+      "warehouse_code": "65461",
+      "supplier_code": null,
+      "reason_code": null,
+      "purchase_id": null,
+      "note": null,
+      "owner_person_code": null,
+      "contract_code": null,
+      "invoice_number": null,
+      "invoice_date": null,
+      "status": "C",
+      "return_items": [
+        {
+          "external_id": null,
+          "return_item_id": "1100603",
+          "purchase_item_id": null,
+          "input_id": null,
+          "input_item_id": null,
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "product_code": "EN-320.209",
+          "card_code": null,
+          "expiry_date": null,
+          "batch_number": "20250314000001441026",
+          "quantity": "203.9",
+          "price": "4.79",
+          "margin_kind": "A",
+          "margin_value": "0",
+          "vat_percent": null,
+          "vat_amount": "0"
+        },
+        {
+          "external_id": null,
+          "return_item_id": "1100603",
+          "purchase_item_id": null,
+          "input_id": null,
+          "input_item_id": null,
+          "serial_number": null,
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "product_code": "EN-320.209",
+          "card_code": null,
+          "expiry_date": null,
+          "batch_number": "20250228000004611033",
+          "quantity": "214.1",
+          "price": "4.79",
+          "margin_kind": "A",
+          "margin_value": "0",
+          "vat_percent": null,
+          "vat_amount": "0"
+        }
+      ]
+    }
+  ]
+}

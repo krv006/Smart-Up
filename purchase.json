@@ -1,0 +1,47 @@
+{
+  "purchase": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "purchase_id": "1305768",
+      "purchase_time": "08.06.2025 13:00:54",
+      "purchase_number": "0000000013",
+      "input_date": null,
+      "order_id": null,
+      "supplier_code": null,
+      "contract_code": null,
+      "invoice_number": null,
+      "invoice_date": null,
+      "invoice_external_id": null,
+      "total_margin_kind": "A",
+      "total_margin_value": "0",
+      "currency_code": "840",
+      "note": null,
+      "warehouse_code": "65491",
+      "status_code": null,
+      "posted": "Y",
+      "batch_number": "20250608000014241026",
+      "purchase_items": [
+        {
+          "external_id": null,
+          "purchase_item_id": "74927608",
+          "order_item_id": null,
+          "product_code": "EN-320.020",
+          "inventory_kind": "G",
+          "on_balance": "Y",
+          "serial_number": null,
+          "card_code": null,
+          "expiry_date": null,
+          "base_price": null,
+          "quantity": "10",
+          "price": "110",
+          "margin_kind": "P",
+          "margin_value": "0",
+          "vat_percent": "0",
+          "vat_amount": "0",
+          "marking_codes": []
+        }
+      ]
+    }
+  ]
+}

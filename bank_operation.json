@@ -1,0 +1,37 @@
+{
+  "bank_operation": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "operation_id": "8015397",
+      "operation_date": "28.04.2025",
+      "operation_number": "0000000867",
+      "subfilial_code": null,
+      "posted": "Y",
+      "bank_trans_number": null,
+      "bank_trans_date": null,
+      "bank_account_code": "42565478765854",
+      "cashflow_reason_code": null,
+      "cashflow_kind": "I",
+      "corr_coa_code": "6310",
+      "ref_codes": [
+        {
+          "ref_type": "1010",
+          "ref_id": "10156245"
+        },
+        {
+          "ref_type": "1012",
+          "ref_id": "11371"
+        }
+      ],
+      "corr_person_code": "120.01.52.007",
+      "corr_bank_account_code": null,
+      "currency_code": "840",
+      "amount": "421.46",
+      "payment_code": null,
+      "purpose": null,
+      "responsible_person_code": null,
+      "note": "5.460.000 click"
+    }
+  ]
+}

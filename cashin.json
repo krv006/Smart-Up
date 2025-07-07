@@ -1,0 +1,29 @@
+{
+  "cashin": [
+    {
+      "filial_code": null,
+      "external_id": null,
+      "cashin_id": "44442616",
+      "cashin_time": "31.01.2025 19:29:03",
+      "cashin_date": "31.01.2025",
+      "cashin_number": "0000000068",
+      "bill_collector_code": null,
+      "client_code": "120.01.01.001",
+      "client_id": "10155587",
+      "client_name": "Artyom 90-9418438",
+      "client_tin": null,
+      "subfilial_code": null,
+      "contract_code": null,
+      "payment_type_code": "PYMT:1",
+      "currency_code": "840",
+      "cashbox_code": null,
+      "bank_account_code": null,
+      "amount": "233.24",
+      "posted": "Y",
+      "bank_trans_number": null,
+      "bank_trans_date": null,
+      "purpose": null,
+      "note": "UZB-1-GOLB"
+    }
+  ]
+}
