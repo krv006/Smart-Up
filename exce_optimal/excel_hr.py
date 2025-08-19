@@ -1,10 +1,23 @@
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+import pandas as pd
+from google.oauth2.service_account import Credentials
 
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+# Scope
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly",
+          "https://www.googleapis.com/auth/drive.readonly"]
+
+creds = Credentials.from_service_account_file("credentials.json", scopes=SCOPES)
+
 client = gspread.authorize(creds)
 
-sheet = client.open_by_key("<YANGI_ID>").sheet1
-data = sheet.get_all_records()
-print(data)
+SHEET_ID = "1SVqA2Qp1848BAyoC39EbGrJax6hIqTsh"
+sheet = client.open_by_key(SHEET_ID)
+
+worksheet = sheet.get_worksheet(0)
+
+df = pd.DataFrame(worksheet.get_all_records())
+
+# Excelga saqlash
+df.to_excel("output.xlsx", index=False)
+
+print("✅ Ma’lumotlar output.xlsx fayliga yozildi!")
