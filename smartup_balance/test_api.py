@@ -49,8 +49,8 @@ def _pick_driver():
 
 def connect_sql():
     driver = "{ODBC Driver 18 for SQL Server}"
-    server = "TAKEDA"
-    database = "SmartUpDB"
+    server = "WIN-LORQJU2719N"
+    database = "SmartUp"
 
     print(f"➡️  Используется ODBC driver: {{{driver}}}")
 
@@ -79,9 +79,8 @@ DATE_FORMAT = "%d.%m.%Y"
 
 SQL_SERVER = "WIN-LORQJU2719N"
 SQL_DATABASE = "SmartUp"
-SQL_TRUSTED = "Yes"  # Windows auth
+SQL_TRUSTED = "Yes"
 
-# Всегда с 2025-01-01 до сегодняшнего дня (Asia/Samarkand)
 BEGIN_DATE_FIXED = date(2025, 1, 1)
 
 FILIAL_WAREHOUSE_JSON = "filial_warehouse1.json"
