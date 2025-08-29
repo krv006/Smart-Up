@@ -1,8 +1,9 @@
 import json
-import platform
+from datetime import datetime, timedelta, date
+
 import pyodbc
 import requests
-from datetime import datetime, timedelta, date
+
 
 # ====== UTIL ======
 def today_samarkand() -> date:
@@ -48,14 +49,14 @@ def _pick_driver():
 
 
 def connect_sql():
-    driver = "{ODBC Driver 18 for SQL Server}"
+    driver = "ODBC Driver 17 for SQL Server"  # <-- qavs yo‘q!
     server = "WIN-LORQJU2719N"
     database = "SmartUp"
 
-    print(f"➡️  Используется ODBC driver: {{{driver}}}")
+    print(f"➡️  Используется ODBC driver: {driver}")
 
     conn_str = (
-        f"DRIVER={driver};"
+        f"DRIVER={{{driver}}};"  # <-- shu joyda {} bo‘lishi kerak
         f"SERVER={server};"
         f"DATABASE={database};"
         "Trusted_Connection=Yes;"
