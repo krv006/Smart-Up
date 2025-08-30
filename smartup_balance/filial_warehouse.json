@@ -1,126 +1,126 @@
 [
   {
     "filial_id": 9161160,
-    "filial_code": "EPCO",
+    "filial_code": "9161160",
     "warehouse_id": 65461,
     "warehouse_code": "MARKAZ",
     "warehouse_name": "MARKAZ"
   },
   {
     "filial_id": 9161176,
-    "filial_code": "01 Tashkent",
+    "filial_code": "9161176",
     "warehouse_id": 65462,
     "warehouse_code": "Toshkent sklad",
     "warehouse_name": "Toshkent sklad"
   },
   {
     "filial_id": 9161176,
-    "filial_code": "01 Tashkent",
+    "filial_code": "9161176",
     "warehouse_id": 67725,
     "warehouse_code": "Брак склад_T",
     "warehouse_name": "Брак склад_T"
   },
   {
     "filial_id": 9161277,
-    "filial_code": "02 Qoqon",
+    "filial_code": "9161277",
     "warehouse_id": 65478,
     "warehouse_code": "KOKAND - Baxromali",
     "warehouse_name": "KOKAND - Baxromali"
   },
   {
     "filial_id": 9161277,
-    "filial_code": "02 Qoqon",
+    "filial_code": "9161277",
     "warehouse_id": 69167,
     "warehouse_code": "KOKAND - Mastona",
     "warehouse_name": "KOKAND - Mastona"
   },
   {
     "filial_id": 9161280,
-    "filial_code": "03 Andijon",
+    "filial_code": "9161280",
     "warehouse_id": 65479,
     "warehouse_code": "Andijon склад",
     "warehouse_name": "Andijon склад"
   },
   {
     "filial_id": 9161283,
-    "filial_code": "04 Namangan",
+    "filial_code": "9161283",
     "warehouse_id": 65480,
     "warehouse_code": "Namangan склад",
     "warehouse_name": "Namangan склад"
   },
   {
     "filial_id": 9161286,
-    "filial_code": "05 Samarqand",
+    "filial_code": "9161286",
     "warehouse_id": 65481,
     "warehouse_code": "Samarqand sklad",
     "warehouse_name": "Samarqand sklad"
   },
   {
     "filial_id": 9161295,
-    "filial_code": "06 Fargona",
+    "filial_code": "9161295",
     "warehouse_id": 65482,
     "warehouse_code": "Fargona склад",
     "warehouse_name": "Fargona склад"
   },
   {
     "filial_id": 9161297,
-    "filial_code": "07 Jizzakh",
+    "filial_code": "9161297",
     "warehouse_id": 65484,
     "warehouse_code": "Jizzax sklad",
     "warehouse_name": "Jizzax sklad"
   },
   {
     "filial_id": 9161298,
-    "filial_code": "08 Surxondaryo",
+    "filial_code": "9161298",
     "warehouse_id": 65485,
     "warehouse_code": "Surxandaryo sklad",
     "warehouse_name": "Surxandaryo sklad"
   },
   {
     "filial_id": 9161304,
-    "filial_code": "09 Sirdaryo",
+    "filial_code": "9161304",
     "warehouse_id": 65486,
     "warehouse_code": "Sirdaryo склад",
     "warehouse_name": "Sirdaryo склад"
   },
   {
     "filial_id": 9161309,
-    "filial_code": "10 Qashqadaryo",
+    "filial_code": "9161309",
     "warehouse_id": 65487,
     "warehouse_code": "Qarshi sklad",
     "warehouse_name": "Qarshi sklad"
   },
   {
     "filial_id": 9161309,
-    "filial_code": "10 Qashqadaryo",
+    "filial_code": "9161309",
     "warehouse_id": 69168,
     "warehouse_code": "SHahrisabz sklad",
     "warehouse_name": "SHahrisabz sklad"
   },
   {
     "filial_id": 9161311,
-    "filial_code": "11 Navoi",
+    "filial_code": "9161311",
     "warehouse_id": 65488,
     "warehouse_code": "Navoi склад",
     "warehouse_name": "Navoi склад"
   },
   {
     "filial_id": 9161321,
-    "filial_code": "12 Xorazm",
+    "filial_code": "9161321",
     "warehouse_id": 65490,
     "warehouse_code": "Xorazm склад",
     "warehouse_name": "Xorazm склад"
   },
   {
     "filial_id": 9161316,
-    "filial_code": "13 Buxoro",
+    "filial_code": "9161316",
     "warehouse_id": 65489,
     "warehouse_code": "Buxoro склад",
     "warehouse_name": "Buxoro склад"
   },
   {
     "filial_id": 9161336,
-    "filial_code": "14 Qoraqalpogiston",
+    "filial_code": "9161336",
     "warehouse_id": 65491,
     "warehouse_code": "Qoraqalpog'iston склад",
     "warehouse_name": "Qoraqalpog'iston склад"
