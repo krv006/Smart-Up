@@ -1,0 +1,34 @@
+{
+  "balance": [
+    {
+      "inventory_kind": "G",
+      "date": "15.02.2025",
+      "warehouse_id": "65478",
+      "warehouse_code": "KOKAND - Baxromali",
+      "product_code": "EN-001.001",
+      "product_barcode": "2068",
+      "product_id": "2334281",
+      "card_code": null,
+      "expiry_date": null,
+      "serial_number": null,
+      "batch_number": "20241231000003721033",
+      "quantity": "41",
+      "measure_code": null,
+      "groups": [
+        {
+          "group_code": "Группа",
+          "type_code": "Масло Трансмиссионная"
+        },
+        {
+          "group_code": "Категория",
+          "type_code": "AUTOMOTIVE"
+        },
+        {
+          "group_code": "Торговая_марка",
+          "type_code": "ENOC"
+        }
+      ],
+      "input_price": "7.02"
+    }
+  ]
+}
