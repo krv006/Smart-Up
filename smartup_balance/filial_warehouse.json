@@ -10,119 +10,119 @@
     "filial_id": 9161176,
     "filial_code": "9161176",
     "warehouse_id": 65462,
-    "warehouse_code": "Toshkent sklad",
-    "warehouse_name": "Toshkent sklad"
+    "warehouse_code": "ToshkentSklad",
+    "warehouse_name": "ToshkentSklad"
   },
   {
     "filial_id": 9161176,
     "filial_code": "9161176",
     "warehouse_id": 67725,
-    "warehouse_code": "Брак склад_T",
-    "warehouse_name": "Брак склад_T"
+    "warehouse_code": "БракCкладT",
+    "warehouse_name": "БракCкладT"
   },
   {
     "filial_id": 9161277,
     "filial_code": "9161277",
     "warehouse_id": 65478,
-    "warehouse_code": "KOKAND - Baxromali",
-    "warehouse_name": "KOKAND - Baxromali"
+    "warehouse_code": "KokandBaxromali",
+    "warehouse_name": "KokandBaxromali"
   },
   {
     "filial_id": 9161277,
     "filial_code": "9161277",
     "warehouse_id": 69167,
-    "warehouse_code": "KOKAND - Mastona",
-    "warehouse_name": "KOKAND - Mastona"
+    "warehouse_code": "KokandMastona",
+    "warehouse_name": "KokandMastona"
   },
   {
     "filial_id": 9161280,
     "filial_code": "9161280",
     "warehouse_id": 65479,
-    "warehouse_code": "Andijon склад",
-    "warehouse_name": "Andijon склад"
+    "warehouse_code": "AndijonCклад",
+    "warehouse_name": "AndijonCклад"
   },
   {
     "filial_id": 9161283,
     "filial_code": "9161283",
     "warehouse_id": 65480,
-    "warehouse_code": "Namangan склад",
-    "warehouse_name": "Namangan склад"
+    "warehouse_code": "NamanganCклад",
+    "warehouse_name": "NamanganCклад"
   },
   {
     "filial_id": 9161286,
     "filial_code": "9161286",
     "warehouse_id": 65481,
-    "warehouse_code": "Samarqand sklad",
-    "warehouse_name": "Samarqand sklad"
+    "warehouse_code": "SamarqandSklad",
+    "warehouse_name": "SamarqandSklad"
   },
   {
     "filial_id": 9161295,
     "filial_code": "9161295",
     "warehouse_id": 65482,
-    "warehouse_code": "Fargona склад",
-    "warehouse_name": "Fargona склад"
+    "warehouse_code": "FargonaCклад",
+    "warehouse_name": "FargonaCклад"
   },
   {
     "filial_id": 9161297,
     "filial_code": "9161297",
     "warehouse_id": 65484,
-    "warehouse_code": "Jizzax sklad",
-    "warehouse_name": "Jizzax sklad"
+    "warehouse_code": "JizzaxSklad",
+    "warehouse_name": "JizzaxSklad"
   },
   {
     "filial_id": 9161298,
     "filial_code": "9161298",
     "warehouse_id": 65485,
-    "warehouse_code": "Surxandaryo sklad",
-    "warehouse_name": "Surxandaryo sklad"
+    "warehouse_code": "SurxandaryoCклад",
+    "warehouse_name": "SurxandaryoCклад"
   },
   {
     "filial_id": 9161304,
     "filial_code": "9161304",
     "warehouse_id": 65486,
-    "warehouse_code": "Sirdaryo склад",
-    "warehouse_name": "Sirdaryo склад"
+    "warehouse_code": "SirdaryoCклад",
+    "warehouse_name": "SirdaryoCклад"
   },
   {
     "filial_id": 9161309,
     "filial_code": "9161309",
     "warehouse_id": 65487,
-    "warehouse_code": "Qarshi sklad",
-    "warehouse_name": "Qarshi sklad"
+    "warehouse_code": "QarshiSklad",
+    "warehouse_name": "QarshiSklad"
   },
   {
     "filial_id": 9161309,
     "filial_code": "9161309",
     "warehouse_id": 69168,
-    "warehouse_code": "SHahrisabz sklad",
-    "warehouse_name": "SHahrisabz sklad"
+    "warehouse_code": "ShahrisabzSklad",
+    "warehouse_name": "ShahrisabzSklad"
   },
   {
     "filial_id": 9161311,
     "filial_code": "9161311",
     "warehouse_id": 65488,
-    "warehouse_code": "Navoi склад",
-    "warehouse_name": "Navoi склад"
+    "warehouse_code": "NavoiCклад",
+    "warehouse_name": "NavoiCклад"
   },
   {
     "filial_id": 9161321,
     "filial_code": "9161321",
     "warehouse_id": 65490,
-    "warehouse_code": "Xorazm склад",
-    "warehouse_name": "Xorazm склад"
+    "warehouse_code": "XorazmCклад",
+    "warehouse_name": "XorazmCклад"
   },
   {
     "filial_id": 9161316,
     "filial_code": "9161316",
     "warehouse_id": 65489,
-    "warehouse_code": "Buxoro склад",
-    "warehouse_name": "Buxoro склад"
+    "warehouse_code": "BuxoroCклад",
+    "warehouse_name": "BuxoroCклад"
   },
   {
     "filial_id": 9161336,
     "filial_code": "9161336",
     "warehouse_id": 65491,
-    "warehouse_code": "Qoraqalpog'iston склад",
-    "warehouse_name": "Qoraqalpog'iston склад"
+    "warehouse_code": "Qoraqalpog'istonCклад",
+    "warehouse_name": "Qoraqalpog'istonCклад"
   }
 ]
