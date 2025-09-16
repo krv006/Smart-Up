@@ -1,11 +1,15 @@
+import urllib
 from datetime import datetime, timedelta
 
 import pandas as pd
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from sqlalchemy import create_engine
+from sqlalchemy.types import Float, Integer, String, DateTime, Boolean
 
 
+# 🔹 Cookies olish
 def get_cookies_from_browser(url):
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
@@ -17,43 +21,45 @@ def get_cookies_from_browser(url):
     return {cookie['name']: cookie['value'] for cookie in cookies}
 
 
+# 🔹 DataFrame typelarni avtomatik o‘zgartirish
 def auto_cast_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
         try:
+            # ID ustunlari har doim INT
+            if "id" in col.lower():
+                df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+                continue
+
+            # Date / Time ustunlari har doim DATETIME
+            if "date" in col.lower() or "time" in col.lower():
+                df[col] = pd.to_datetime(df[col], errors="coerce")
+                continue
+
             s = df[col].dropna().astype(str)
-
-            # true/false → Int
-            if not s.empty and s.str.lower().isin(['true', 'false']).all():
-                df[col] = s.str.lower().map({'true': 1, 'false': 0}).astype('Int64')
+            if s.empty:
                 continue
 
-            # целые числа
-            if not s.empty and s.str.fullmatch(r"\d+").all():
-                df[col] = pd.to_numeric(s, downcast='integer', errors='coerce')
+            # Boolean
+            if s.str.lower().isin(['true', 'false']).all():
+                df[col] = s.str.lower().map({'true': 1, 'false': 0}).astype("Int64")
                 continue
 
-            # дробные числа
-            if not s.empty and s.str.fullmatch(r"\d+\.\d+").all():
-                df[col] = pd.to_numeric(s, errors='coerce')
+            # Integer
+            if s.str.fullmatch(r"\d+").all():
+                df[col] = pd.to_numeric(s, downcast="integer", errors="coerce")
                 continue
 
-            # даты
-            dt = pd.to_datetime(df[col], format="%d.%m.%Y", errors="coerce")
-            if dt.notna().any():
-                df[col] = dt
+            # Float
+            if s.str.fullmatch(r"\d+\.\d+").all():
+                df[col] = pd.to_numeric(s, errors="coerce")
                 continue
-
-            dt = pd.to_datetime(df[col], format="%Y-%m-%d", errors="coerce")
-            if dt.notna().any():
-                df[col] = dt
 
         except Exception:
-            # если колонка не подошла ни под один тип → оставляем как есть
             continue
-
     return df
 
 
+# 🔹 JSON flatten qilish
 def fetch_and_flatten(data_url, cookies, date_from, date_to):
     try:
         print(f"⬇️ Yuklanmoqda: {date_from} → {date_to}")
@@ -70,13 +76,8 @@ def fetch_and_flatten(data_url, cookies, date_from, date_to):
 
         orders = data.get("order", [])
         if not orders:
-            print("⚠️ Bu oyda 'order' topilmadi")
+            print("⚠️ Bu davrda 'order' topilmadi")
             return None
-
-        print("🔎 HTTP status:", response.status_code)
-        print("📦 Размер JSON:", len(response.content))
-        data = response.json()
-        print("📊 Кол-во order:", len(data.get("order", [])))
 
         # order_main
         order_df = pd.json_normalize(orders, sep="_", max_level=1)
@@ -93,21 +94,13 @@ def fetch_and_flatten(data_url, cookies, date_from, date_to):
         # order_details
         details_list = []
         for product in order_products_list:
-            product_id = product.get("product_id")
             order_id = product.get("order_id")
+            product_id = product.get("product_id")
             for detail in product.get("details", []):
-                detail["product_id"] = product_id
                 detail["order_id"] = order_id
+                detail["product_id"] = product_id
                 details_list.append(detail)
         details_df = pd.DataFrame(details_list)
-
-        # Dublikatlarni olib tashlash
-        if "deal_id" in order_df.columns:
-            order_df = order_df.drop_duplicates(subset=["deal_id"])
-        if "order_id" in order_products_df.columns:
-            order_products_df = order_products_df.drop_duplicates(subset=["order_id", "product_id"])
-        if "order_id" in details_df.columns:
-            details_df = details_df.drop_duplicates(subset=["order_id", "product_id"])
 
         print(f"✅ {len(order_df)} order, {len(order_products_df)} product, {len(details_df)} detail")
 
@@ -121,6 +114,7 @@ def fetch_and_flatten(data_url, cookies, date_from, date_to):
         return None
 
 
+# 🔹 Limit bo‘yicha bo‘lish
 def safe_fetch(data_url, cookies, date_from, date_to, limit=7900):
     result = []
     stack = [(date_from, date_to)]
@@ -132,7 +126,7 @@ def safe_fetch(data_url, cookies, date_from, date_to, limit=7900):
             continue
 
         count = len(data["order_main"])
-        if count >= limit:  # достигнут лимит → делим период пополам
+        if count >= limit:
             start_dt = datetime.strptime(start, "%Y-%m-%d")
             end_dt = datetime.strptime(end, "%Y-%m-%d")
             mid_dt = start_dt + (end_dt - start_dt) / 2
@@ -140,70 +134,87 @@ def safe_fetch(data_url, cookies, date_from, date_to, limit=7900):
             stack.append((start, mid_dt.strftime("%Y-%m-%d")))
         else:
             result.append(data)
-
     return result
 
 
-from sqlalchemy import create_engine
-from sqlalchemy.types import Float, Integer, String, DateTime, Boolean
-import urllib
-
-
+# 🔹 SQL Serverga yozish (ID va DATE type bilan, dublikatlarsiz)
 def upload_to_sql(df_dict):
     try:
-        # Подключение к SQL Server
         params = urllib.parse.quote_plus(
             "DRIVER={ODBC Driver 17 for SQL Server};"
             "SERVER=localhost;"
-            "DATABASE=Epco;"
+            "DATABASE=DealDB;"
             "Trusted_Connection=yes;"
             "TrustServerCertificate=yes;"
         )
         engine = create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
 
-        for table_name, df in df_dict.items():
-            if df is None or df.empty or df.columns.empty:
-                print(f"⏭ {table_name} bo‘sh – o‘tkazib yuborildi.")
-                continue
+        with engine.begin() as conn:
+            for table_name, df in df_dict.items():
+                if df is None or df.empty or df.columns.empty:
+                    print(f"⏭ {table_name} bo‘sh – o‘tkazib yuborildi.")
+                    continue
 
-            # Автоматическое приведение типов в DataFrame
-            df = auto_cast_dataframe(df)
+                # Auto cast
+                df = auto_cast_dataframe(df)
 
-            print(f"📥 {table_name} ({len(df)} ta satr) yozilmoqda...")
+                # SQL dan mavjud ID larni olish va filter qilish
+                key_cols = []
+                if table_name == "order_main" and "deal_id" in df.columns:
+                    key_cols = ["deal_id"]
+                elif table_name == "order_products" and {"order_id", "product_id"}.issubset(df.columns):
+                    key_cols = ["order_id", "product_id"]
+                elif table_name == "order_details" and {"order_id", "product_id"}.issubset(df.columns):
+                    key_cols = ["order_id", "product_id"]
 
-            # Определяем dtype для всех колонок
-            dtype_mapping = {}
-            for col in df.columns:
-                sample_value = df[col].dropna().iloc[0] if not df[col].dropna().empty else None
-                if sample_value is None:
-                    dtype_mapping[col] = String()
-                elif isinstance(sample_value, float):
-                    dtype_mapping[col] = Float()
-                elif isinstance(sample_value, int):
-                    dtype_mapping[col] = Integer()
-                elif isinstance(sample_value, bool):
-                    dtype_mapping[col] = Boolean()
-                elif hasattr(sample_value, "year"):  # datetime
-                    dtype_mapping[col] = DateTime()
-                else:
-                    dtype_mapping[col] = String()
+                if key_cols:
+                    sql = f"SELECT {', '.join(key_cols)} FROM {table_name}"
+                    try:
+                        existing_keys = pd.read_sql(sql, conn)
+                        before = len(df)
+                        df = df.merge(existing_keys, on=key_cols, how="left", indicator=True)
+                        df = df[df["_merge"] == "left_only"].drop(columns=["_merge"])
+                        print(f"🧹 {table_name}: {before - len(df)} ta dublikat tashlandi")
+                    except Exception:
+                        pass  # agar jadval hali yo‘q bo‘lsa
 
-            # Создаём таблицу заново, полностью под DataFrame
-            df.to_sql(
-                table_name,
-                con=engine,
-                index=False,
-                if_exists="append",  # append
-                dtype=dtype_mapping
-            )
+                if df.empty:
+                    continue
+
+                print(f"📥 {table_name} ({len(df)} ta satr) yozilmoqda...")
+
+                # DataType mapping
+                dtype_mapping = {}
+                for col in df.columns:
+                    if "id" in col.lower():
+                        dtype_mapping[col] = Integer()
+                    elif "date" in col.lower() or "time" in col.lower():
+                        dtype_mapping[col] = DateTime()
+                    elif df[col].dtype in ["int64", "Int64"]:
+                        dtype_mapping[col] = Integer()
+                    elif df[col].dtype == "float64":
+                        dtype_mapping[col] = Float()
+                    elif df[col].dtype == "bool":
+                        dtype_mapping[col] = Boolean()
+                    else:
+                        dtype_mapping[col] = String(500)
+
+                # SQL ga append qilish
+                df.to_sql(
+                    table_name,
+                    con=conn,
+                    index=False,
+                    if_exists="append",
+                    dtype=dtype_mapping
+                )
 
         print("✅ SQL Serverga yozildi.")
     except Exception as e:
         print(f"❌ SQL yozishda xatolik: {e}")
 
 
+# 🔹 Oyma-oy interval generator
 def month_ranges(start_date, end_date):
-    """oyma-oy interval generatori"""
     current = start_date
     while current < end_date:
         next_month = (current.replace(day=1) + timedelta(days=32)).replace(day=1)
@@ -211,11 +222,17 @@ def month_ranges(start_date, end_date):
         current = next_month
 
 
+# 🔹 Main
 if __name__ == "__main__":
     DATA_URL = "https://smartup.online/b/trade/txs/tdeal/order$export"
     cookies = get_cookies_from_browser("https://smartup.online")
+
+    # 🔹 Start doim 2025-01-01
     start_date = datetime(2025, 1, 1)
+
+    # 🔹 End esa hozirgi sana
     end_date = datetime.today()
+
     for date_from, date_to in month_ranges(start_date, end_date):
         results = safe_fetch(DATA_URL, cookies, date_from, date_to)
         for df_dict in results:
