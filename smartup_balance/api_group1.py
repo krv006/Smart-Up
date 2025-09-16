@@ -10,7 +10,7 @@ from decimal import Decimal, InvalidOperation
 import pyodbc
 import requests
 
-print(sys.getdefaultencoding())  # utf-8 bo'lishi kerak
+print(sys.getdefaultencoding())
 
 # ====== KONFIG ======
 URL = "https://smartup.online/b/anor/mxsx/mkw/balance$export"
@@ -32,7 +32,7 @@ GROUP_TABLE = "dbo.BalanceGroup"
 COLLATION = "Cyrillic_General_CI_AS"
 
 # ====== INCREMENTAL SETTINGS ======
-INCREMENTAL_BUFFER_DAYS = 3  # kechikkan yozuvlar uchun orqaga qarab tekshir
+INCREMENTAL_BUFFER_DAYS = 3
 
 # ====== UTIL ======
 _WS_CHARS = "\u00A0\u202F\u2007"  # NBSP, thin space, figure space
