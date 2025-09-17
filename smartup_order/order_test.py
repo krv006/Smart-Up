@@ -21,6 +21,18 @@ def get_cookies_from_browser(url):
     return {cookie['name']: cookie['value'] for cookie in cookies}
 
 
+# 🔹 Sana parse qilish yordamchi funksiya
+def parse_date(val):
+    if pd.isna(val):
+        return None
+    for fmt in ("%Y.%m.%d", "%d.%m.%Y", "%Y-%m-%d", "%d-%m-%Y"):
+        try:
+            return pd.to_datetime(val, format=fmt)
+        except Exception:
+            continue
+    return pd.to_datetime(val, errors="coerce", dayfirst=True)
+
+
 # 🔹 DataFrame typelarni avtomatik o‘zgartirish
 def auto_cast_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
@@ -32,12 +44,7 @@ def auto_cast_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
             # Date / Time ustunlari har doim DATETIME
             if "date" in col.lower() or "time" in col.lower():
-                try:
-                    # Format: YYYY.MM.DD (2025.01.08)
-                    df[col] = pd.to_datetime(df[col], format="%Y.%m.%d", errors="coerce")
-                except Exception:
-                    # Format: DD.MM.YYYY (01.08.2025)
-                    df[col] = pd.to_datetime(df[col], errors="coerce", dayfirst=True)
+                df[col] = df[col].apply(parse_date)
                 continue
 
             s = df[col].dropna().astype(str)
@@ -147,8 +154,8 @@ def upload_to_sql(df_dict):
     try:
         params = urllib.parse.quote_plus(
             "DRIVER={ODBC Driver 17 for SQL Server};"
-            "SERVER=localhost;"
-            "DATABASE=DealDB;"
+            "SERVER=WIN-LORQJU2719N;"
+            "DATABASE=SmartUp;"
             "Trusted_Connection=yes;"
             "TrustServerCertificate=yes;"
         )
