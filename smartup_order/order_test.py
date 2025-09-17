@@ -32,7 +32,12 @@ def auto_cast_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
             # Date / Time ustunlari har doim DATETIME
             if "date" in col.lower() or "time" in col.lower():
-                df[col] = pd.to_datetime(df[col], errors="coerce")
+                try:
+                    # Format: YYYY.MM.DD (2025.01.08)
+                    df[col] = pd.to_datetime(df[col], format="%Y.%m.%d", errors="coerce")
+                except Exception:
+                    # Format: DD.MM.YYYY (01.08.2025)
+                    df[col] = pd.to_datetime(df[col], errors="coerce", dayfirst=True)
                 continue
 
             s = df[col].dropna().astype(str)
