@@ -76,7 +76,7 @@ def get_sheets_data(file_id: str, creds) -> dict:
             sheets_data[sheet_name] = df
 
     else:
-        raise RuntimeError("Noto‘g‘ri fayl turi!")
+        raise RuntimeError("❌ Noto‘g‘ri fayl turi!")
 
     return sheets_data
 
@@ -94,7 +94,6 @@ def write_to_sql(sheets_data: dict):
         table_name = clean_table_name(sheet_name)
         print(f"📥 {table_name} jadvaliga tekshirilmoqda... ({len(df)} qator)")
 
-        # Jadval yaratish (agar yo‘q bo‘lsa)
         cols = ", ".join([f"[{col}] {detect_sql_type(df[col])}" for col in df.columns])
         cols += ", [row_hash] CHAR(32)"  # dublikatni aniqlash uchun hash
         cursor.execute(f"""
@@ -102,7 +101,6 @@ def write_to_sql(sheets_data: dict):
             CREATE TABLE {table_name} ({cols}, CONSTRAINT UQ_{table_name}_hash UNIQUE (row_hash))
         """)
 
-        # Hash qo‘shish
         df["row_hash"] = df.astype(str).sum(axis=1).apply(lambda x: hashlib.md5(x.encode()).hexdigest())
 
         inserted = 0
@@ -115,7 +113,6 @@ def write_to_sql(sheets_data: dict):
                 cursor.execute(insert_sql, tuple(None if pd.isna(x) else str(x) for x in row))
                 inserted += 1
             except pyodbc.IntegrityError:
-                # Dublikat row_hash bo‘lsa, tashlab ketamiz
                 pass
 
         conn.commit()
@@ -127,6 +124,7 @@ def write_to_sql(sheets_data: dict):
 
 if __name__ == "__main__":
     creds = Credentials.from_service_account_file(SA_PATH, scopes=SCOPES)
+    print("🔑 Service account bilan autentifikatsiya qilindi.")
     sheets_data = get_sheets_data(SHEET_OR_FILE_ID, creds)
     write_to_sql(sheets_data)
     print("🎯 Barcha sheetlar SmartUp DB ga muvaffaqiyatli yuklandi!")
