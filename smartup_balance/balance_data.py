@@ -173,128 +173,6 @@ def make_balance_id(warehouse_id, product_id, batch_number, balance_date) -> str
     return sha256("|".join(parts))
 
 
-# ====== AUTO DTYPE INFERENCE (add-only) ======
-
-def _round_nvarchar_len(n: int) -> int:
-    """Matn uzunligini oqilona pog‘onaga yaxlitlaydi."""
-    if n <= 50: return 50
-    if n <= 100: return 100
-    if n <= 200: return 200
-    if n <= 400: return 400
-    if n <= 800: return 800
-    if n <= 1000: return 1000
-    if n <= 2000: return 2000
-    return -1  # NVARCHAR(MAX)
-
-
-def _is_all_none(values):
-    return all(v is None or (isinstance(v, str) and _clean_str(v) == "") for v in values)
-
-
-def _looks_int(s):
-    try:
-        return safe_int(s) is not None
-    except Exception:
-        return False
-
-
-def _looks_float(s):
-    try:
-        return to_float(s) is not None
-    except Exception:
-        return False
-
-
-def _looks_date(s):
-    try:
-        return to_date(s) is not None
-    except Exception:
-        return False
-
-
-def _has_fraction(values):
-    """Agar sonlarda kasr qismi uchrasa True."""
-    for v in values:
-        f = to_float(v)
-        if f is not None and abs(f - int(f)) > 1e-12:
-            return True
-    return False
-
-
-def infer_sql_type_for_column(values) -> str:
-    """
-    Ustun qiymatlariga qarab oqilona SQL tipini qaytaradi:
-      - Hammasi bo‘sh/None → NVARCHAR(100)
-      - Barchasi sana → DATE
-      - Barchasi raqam: kasr bo‘lsa DECIMAL(18,4); aks holda INT/BIGINT/DECIMAL(38,0)
-      - Boshqa holat → NVARCHAR(rounded) COLLATE {COLLATION}
-    """
-    vals = list(values)
-
-    if _is_all_none(vals):
-        return f"NVARCHAR(100) COLLATE {COLLATION}"
-
-    # Date?
-    non_null = [v for v in vals if v is not None and not (isinstance(v, str) and _clean_str(v) == "")]
-    if non_null and all(_looks_date(v) for v in non_null):
-        return "DATE"
-
-    # Numeric?
-    if non_null and all(_looks_int(v) or _looks_float(v) for v in non_null):
-        if _has_fraction(non_null) or any(_looks_float(v) and not _looks_int(v) for v in non_null):
-            return "DECIMAL(18,4)"
-        try:
-            max_abs = max(abs(int(to_float(v))) for v in non_null if to_float(v) is not None)
-            if max_abs <= 2_147_483_647:
-                return "INT"
-            if max_abs <= 9_223_372_036_854_775_807:
-                return "BIGINT"
-            return "DECIMAL(38,0)"
-        except Exception:
-            return "DECIMAL(18,4)"
-
-    # Text — maksimal uzunlikka qarab
-    max_len = 0
-    for v in non_null:
-        s = _clean_str(str(v))
-        if len(s) > max_len:
-            max_len = len(s)
-    rounded = _round_nvarchar_len(max_len)
-    if rounded == -1:
-        return f"NVARCHAR(MAX) COLLATE {COLLATION}"
-    return f"NVARCHAR({rounded}) COLLATE {COLLATION}"
-
-
-def infer_sql_schema_from_rows(rows, column_names):
-    """
-    rows: list[tuple] — masalan #TmpFact/#TmpGroup/#TmpCond ga insert qilinadigan tuplar
-    column_names: list[str] — ustun nomlari tartibda
-    Natija: dict {col_name: sql_type_str}
-    """
-    if not rows:
-        # Hech narsa bo‘lmasa, default NVARCHAR(100) qaytaramiz
-        return {c: f"NVARCHAR(100) COLLATE {COLLATION}" for c in column_names}
-
-    col_buckets = {i: [] for i in range(len(column_names))}
-    for r in rows:
-        for i, val in enumerate(r):
-            col_buckets[i].append(val)
-
-    schema = {}
-    for i, col in enumerate(column_names):
-        schema[col] = infer_sql_type_for_column(col_buckets[i])
-    return schema
-
-
-def generate_create_table_from_rows(table_name: str, rows, column_names):
-    """
-    rows va column_names bo‘yicha CREATE TABLE skriptini generatsiya qiladi (faqat skript, DBga yozmaydi).
-    """
-    sch = infer_sql_schema_from_rows(rows, column_names)
-    cols_sql = [f"    [{col}] {sch[col]}" for col in column_names]
-    return "CREATE TABLE " + table_name + " (\n" + ",\n".join(cols_sql) + "\n);"
-
-
 # ====== DB Objects ======
 def ensure_tables(cursor):
     """3 ta jadvalni yaratadi (agar bo'lmasa). PK/FK/indekslarni ham borligini tekshiradi."""
@@ -307,16 +185,16 @@ BEGIN
         inventory_kind  VARCHAR(50)   NULL,
         balance_date    DATE          NULL,
         warehouse_id    INT           NULL,
-        warehouse_code  NVARCHAR(200) COLLATE {COLLATION} NULL,
-        product_code    NVARCHAR(100) COLLATE {COLLATION} NULL,
+        warehouse_code  INT           COLLATE {COLLATION} NULL,
+        product_code    INT           COLLATE {COLLATION} NULL,
         product_barcode NVARCHAR(100) COLLATE {COLLATION} NULL,
-        product_id      NVARCHAR(50)  COLLATE {COLLATION} NULL,
+        product_id      INT           COLLATE {COLLATION} NULL,
         card_code       NVARCHAR(100) COLLATE {COLLATION} NULL,
         expiry_date     DATE          NULL,
         serial_number   NVARCHAR(100) COLLATE {COLLATION} NULL,
         batch_number    NVARCHAR(100) COLLATE {COLLATION} NULL,
-        quantity        DECIMAL(18,4) NULL,
-        measure_code    NVARCHAR(50)  COLLATE {COLLATION} NULL,
+        quantity        INT           NULL,
+        measure_code    INT           COLLATE {COLLATION} NULL,
         input_price     DECIMAL(18,4) NULL,
         filial_id       INT           NULL,
         filial_code     NVARCHAR(100) COLLATE {COLLATION} NULL
