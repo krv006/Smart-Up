@@ -1,10 +1,11 @@
 import json
+import urllib
+
 import pandas as pd
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from sqlalchemy import create_engine, NVARCHAR, DateTime, Integer
-import urllib
 
 
 def get_cookies_from_browser(url):
@@ -67,8 +68,8 @@ def upload_to_sql(df_dict):
     print("🔌 Подключение к SQL Server...")
     params = urllib.parse.quote_plus(
         "DRIVER={ODBC Driver 17 for SQL Server};"
-        "SERVER=WIN-LORQJU2719N;"
-        "DATABASE=SmartUp;"
+        "SERVER=localhost;"
+        "DATABASE=SOFT;"
         "Trusted_Connection=yes;"
         "TrustServerCertificate=yes;"
     )
@@ -79,34 +80,29 @@ def upload_to_sql(df_dict):
             print(f"⏭ Таблица {table_name} пуста — пропущено.")
             continue
 
-        # ID larni int ga o‘tkazamiz
         for col in df.columns:
             if "id" in col.lower():
                 df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
-
-        # Sana va vaqt ustunlarini datetime ga
-        for col in df.columns:
-            if "date" in col.lower() or "time" in col.lower():
+            elif "date" in col.lower() or "time" in col.lower():
                 df[col] = pd.to_datetime(df[col], errors="coerce")
 
-        # dtype mapping
-        dtype_map = {}
+        type_schema = {col: str(df[col].dtype) for col in df.columns}
+        print(f"📋 Схема типов для {table_name}: {json.dumps(type_schema, ensure_ascii=False)}")
+
+        dtype_map = {col: NVARCHAR(255) for col in df.columns}
         for col in df.columns:
             if "id" in col.lower():
                 dtype_map[col] = Integer()
             elif "date" in col.lower() or "time" in col.lower():
                 dtype_map[col] = DateTime()
-            else:
-                dtype_map[col] = NVARCHAR(255)
 
         print(f"📥 Загрузка в таблицу: {table_name} ({len(df)} строк)")
-
         try:
             df.to_sql(
                 name=table_name,
                 con=engine,
                 index=False,
-                if_exists="append",   # faqat qo‘shadi
+                if_exists="append",
                 dtype=dtype_map
             )
             print(f"✅ Таблица {table_name} успешно загружена.")
