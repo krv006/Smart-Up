@@ -10,7 +10,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 
 SHEET_OR_FILE_ID = "1daYKRA15-mjC5e0wPZJuCQFuTKY2z0Bd"
-SA_PATH = "credentials.json"
+SA_PATH = "plated-complex-423213-n0-17d191a3e0f4.json"
 
 DB_CONN_STR = (
     "DRIVER={SQL Server};"
